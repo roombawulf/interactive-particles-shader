@@ -1,0 +1,30 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body
+{
+    overflow: hidden;
+}
+
+.curtain
+{
+    width: 100%;
+    position: fixed;
+    height: 50%;
+    background: #ffffff;
+    z-index: 100;
+    mix-blend-mode: difference;
+}
+
+.webgl
+{
+    position: fixed;
+    top: 0;
+    left: 0;
+    outline: none;
+}
+
